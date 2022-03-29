@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="imagen/Captura de tela 2022-03-23 095750.png" width="400">
+    </header>
+    <nav>
+
+    <a href="index.html">Home</a>  | 
+    <a href="musicas.html">Músicas para Progamação</a> |
+    <a href="aulas.html">Aulas</a> | 
+    <a href="contato.html">Contato</a> 
+
+    </nav>
+
+    <main>
+
+        <strong>
+            <h2>
+                Formulario para Contato
+            </h2>
+        </strong>
+
+        <form method="post" action="">
+            <fieldset>
+    
+                <legend>
+                <strong>
+                    Dados do Aluno
+                </strong>
+                </legend>
+    
+                <p>
+                    Nome do Aluno:
+                    <input type="text" name="txtnome" required><br>
+                </p>
+                <p>
+                    Data de Nascimento: 
+                    <input type="date" name="dataNas" required><br>
+                </p>
+                <p>
+                E-mail:
+                <input type="email" name="email" required><br>
+                </p>
+
+                <p>
+                Telefone:
+                <br>
+                <label for="phonenum">(O numero deve ser no formato: xx xxxxx-xxxx):</label><br/>
+                <input type="tel" name="tele" pattern="^\d{2} \d{5}-\d{4}$" required><br>
+                </p>
+    
+                <p>
+                Gênero:<br>
+                <input type="radio" name="g" value="g1">Masculino<br>
+                <input type="radio" name="g" value="g2">Feminino<br>
+                </p>
+                
+                <p>
+                Quaias Cursos tem interesse:<br>
+                <input type="checkbox" name="est" value="E1">Python<br>
+                <input type="checkbox" name="est" value="E2">C#<br>
+                <input type="checkbox" name="est" value="E3">R<br>
+                <input type="checkbox" name="est" value="E3">Java<br>
+                </p>
+                
+                <button>Enviar</button>
+            </fieldset>
+            
+            </form>
+            
+        
+    </main>
+
+    <footer>
+        &copy; - Prof Ajax - 2022
+    </footer>
+</body>
+</html>

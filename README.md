@@ -1,2 +1,2 @@
-# profeAjax
-Projeto: Site de Programação Professor Ajax 
+# profajax
+Projeto do Professor Ajax
